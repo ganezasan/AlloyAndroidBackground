@@ -17,7 +17,6 @@ Alloy.Globals.serviceIntent = null;
 Alloy.Globals.lastClosed = Ti.App.Properties.getObject("lastClosed", new Date());   // アプリが最後に閉じられた時間
 Alloy.Globals.serviceOften = 3000;  // サービス起動間隔
 Alloy.Globals.updateOften = 10000;  // 最後にアプリを閉じてから新しいデータを読み込むまでの時間
-Alloy.Globals.autoUpdate = true;
 Alloy.Globals.serviceStatus = false;
 
 /**
