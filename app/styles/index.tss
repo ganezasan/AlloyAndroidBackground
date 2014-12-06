@@ -1,0 +1,16 @@
+".container": {
+	backgroundColor:"black"
+}
+
+"Label": {
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "red"
+}
+
+"#label": {
+	font: {
+		fontSize: 32,
+    fontWeight: "bold"
+	}
+}
