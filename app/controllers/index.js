@@ -19,12 +19,6 @@ $.index.open();
 //Activityのライフサイクルに応じてイベントを設定
 $.index.addEventListener("open", function () {
   Ti.API.info("open");
-  Ti.API.info(Alloy.Globals.service);
-  if(Alloy.Globals.serviceIntent !== null && Ti.Android.isServiceRunning(Alloy.Globals.serviceIntent)){
-    Ti.API.info(Ti.Android.isServiceRunning(Alloy.Globals.serviceIntent));
-    return false;
-  }
-
   Alloy.Globals.activity = $.index.activity;
   Alloy.Globals.page = "index";
   Alloy.Globals.activeFlg = true;
